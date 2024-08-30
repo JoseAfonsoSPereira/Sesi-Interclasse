@@ -1,0 +1,41 @@
+.audiowide-regular {
+   font-family: "Audiowide", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ } 
+
+.container_esporte {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.title-esportes {
+   font-size: 50px;
+   font-family: "Audiowide", sans-serif;
+   margin-top: 50px;
+}
+.div_esportes {
+   text-align: center;
+}
+.esportes {
+   width: 300px;
+   height: 200px;
+   margin: 35px;
+   cursor: pointer;
+}
+
+@media (max-width: 1412px) {
+   .div_title{
+      text-align: center;
+   }
+   .title {
+      margin-left: 0px;
+   }
+}
+@media (max-width:500px){
+   .title-esportes {
+      font-size: 40px;
+   }
+}
